@@ -40,6 +40,7 @@ A detailed explanation of ILGuard will be available in the upcoming whitepaper. 
 ### 1. **Impermanent Loss Calculation**
 
 ILGuard calculates IL by comparing the current value of the liquidity provider's position to the value at the time the liquidity was initially provided:
+
 $$IL = (Value \ LP \ intially) - (Current \ value \ LP)$$
 
 ### 2. **Compensation Formula**
