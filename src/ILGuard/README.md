@@ -42,17 +42,13 @@ A detailed explanation of ILGuard will be available in the upcoming whitepaper. 
 ILGuard calculates IL by comparing the current value of the liquidity provider's position to the value at the time the liquidity was initially provided:
 $$IL = (Value \ LP \ intially) - (Current \ value \ LP)$$
 
-```math
-IL = (Value \ LP \ intially) - (Current \ value \ LP)
-```
-
 ### 2. **Compensation Formula**
 
 Compensation (C) is distributed using a linear formula, with a cap to control emissions:
 
-$$
+```math
 \text{C} = \min(IL \times k, \text{C\_max})
-$$
+```
 
 Where:
 
@@ -66,9 +62,9 @@ Where:
 ILGuard only compensates LPs whose price range is active:
 
 - Active range:
-  $$
+  ```math
   P_{\text{min}} \leq P_{\text{current}} \leq P_{\text{max}}
-  $$
+  ```
 - LPs out of range are excluded after a short grace period.
 
 ---
