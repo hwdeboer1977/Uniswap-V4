@@ -6,6 +6,18 @@
 
 This system ensures fairness by dynamically calculating rewards proportional to IL while capping emissions to prevent overcompensation during extreme market conditions.
 
+## Whitepaper
+
+A detailed whitepaper (expected March 2025) will explain the theoretical framework, tokenomics, and implementation details of ILGuard. The whitepaper will also outline the next steps on the roadmap, including:
+
+- Dynamic compensation caps tailored to market conditions.
+- Tiered rewards systems for incentivizing long-term liquidity provision.
+- Governance integration to decentralize parameter adjustments.
+- Cross-protocol collaborations to expand incentives and utility.
+- Multichain support for liquidity pools on emerging blockchain networks.
+
+Stay tuned for updates, and be part of the journey as ILGuard evolves to better serve liquidity providers!
+
 ---
 
 ## Key Features
@@ -33,15 +45,12 @@ This system ensures fairness by dynamically calculating rewards proportional to 
 
 ## How It Works
 
-## 0. Whitepaper
-
-A detailed explanation of ILGuard will be available in the upcoming whitepaper. Stay tuned!
 
 ### 1. **Impermanent Loss Calculation**
 
 ILGuard calculates IL by comparing the current value of the liquidity provider's position to the value at the time the liquidity was initially provided:
 
-$$IL = (Value \ LP \ intially) - (Current \ value \ LP)$$
+$$IL = (Initial \ value \ LP) - (Current \ value \ LP)$$
 
 ### 2. **Compensation Formula**
 
