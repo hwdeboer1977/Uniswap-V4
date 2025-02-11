@@ -12,7 +12,7 @@ import {BeforeSwapDelta, BeforeSwapDeltaLibrary} from "v4-core/types/BeforeSwapD
 
 // Tutorial: https://uniswap.atrium.academy/courses/uniswap-hook-incubator/dynamic-fees-gas-price-fee/
 // Github: https://github.com/haardikk21/gas-price-hook
--	git status
+
 // We will design a hook that keeps track of the moving average gas price over time onchain.
 // When gas price is roughly equal to the average, we will charge a certain amount of fees.
 // If gas price is over 10% higher than the average, we will charge lower fees.
