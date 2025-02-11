@@ -9,7 +9,6 @@ import {BalanceDelta} from "v4-core/types/BalanceDelta.sol";
 import {LPFeeLibrary} from "v4-core/libraries/LPFeeLibrary.sol";
 import {BeforeSwapDelta, BeforeSwapDeltaLibrary} from "v4-core/types/BeforeSwapDelta.sol";
 
-
 // Tutorial: https://uniswap.atrium.academy/courses/uniswap-hook-incubator/dynamic-fees-gas-price-fee/
 // Github: https://github.com/haardikk21/gas-price-hook
 

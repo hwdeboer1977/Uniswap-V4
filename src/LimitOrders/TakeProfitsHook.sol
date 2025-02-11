@@ -4,8 +4,7 @@ pragma solidity ^0.8.0;
 // HOOK TO SET LIMIT ORDERS
 // Tutorial: https://uniswap.atrium.academy/courses/uniswap-hook-incubator/liquidity-operator-limit-orders-part-1/
 //           https://uniswap.atrium.academy/courses/uniswap-hook-incubator/liquidity-operator-limit-orders-part-2/
-// Github: https://github.com/haardikk21/take-profits-hook  
-
+// Github: https://github.com/haardikk21/take-profits-hook
 
 // Two types of "take profit" orders possible here:
 // 1. Sell some amount of A when price of A goes up further
